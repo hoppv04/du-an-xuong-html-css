@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #018294;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #f2ede6;
+  padding: 30px 0 90px;
+}
+
+header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav .header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left .header-icon {
+  margin-right: 70px;
+}
+
+.header-left nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left nav ul li {
+  padding: 13px;
+  margin-right: 13px;
+}
+
+.header-left nav ul li a {
+  color: black;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-right .btn-style {
+  padding: 18px 30px;
+  border-radius: 40px;
+  border: 1px solid #f2ede6;
+  color: black;
+  background-color: #f2ede6;
+  transition: all ease-in 0.3s;
+}
+
+.header-right .btn-style:hover {
+  color: #f2ede6;
+  background-color: black;
+  border: 1px solid black;
+}
+
+header .header-banner {
+  margin-top: 100px;
+}
+
+.header-banner .header__banner--content {
+  max-width: 570px;
+}
+
+.header-banner .header__banner--title {
+  font-size: 78px;
+  line-height: 88px;
+}
+
+.header__banner--title img {
+  width: 174px;
+}
+
+.header-banner .header__banner--text {
+  margin-top: 20px;
+  color: #676562;
+  font-size: 20px;
+}
+
+.header__banner--content .button-wrap {
+  margin-top: 44px;
+}
+
+.button-wrap .button-banner-style {
+  margin-right: 30px;
+  padding: 20px 30px;
+  font-size: 19px;
+  border-radius: 40px;
+}
+
+.button-wrap .button-banner-style.book-demo-btn {
+  color: #2d2d2d;
+  background-color: #f7d047;
+  border: #f7d047;
+}
+
+.button-wrap .button-banner-style.ask-question-btn {
+  background-color: transparent;
+  border: 1px solid #676562;
+}
+/* Content */
+/* Footer */
