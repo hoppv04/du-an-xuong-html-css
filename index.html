@@ -10,19 +10,23 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/scss/style.css" />
   </head>
   <body>
     <!-- Header start -->
     <header>
       <div class="container">
-        <div class="header-nav">
-          <div class="header-left">
+        <div
+          class="header-nav d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="header-left d-flex justify-content-center align-items-center"
+          >
             <div class="header-icon">
               <img src="assets/images/Logo.png" alt="nn-shop" />
             </div>
             <nav>
-              <ul>
+              <ul class="d-flex justify-content-center align-items-center">
                 <li><a href="#!">Product</a></li>
                 <li><a href="#!">Pricing</a></li>
                 <li><a href="#!">Contact us</a></li>
@@ -31,33 +35,33 @@
               </ul>
             </nav>
           </div>
-          <div class="header-right">
+          <div
+            class="header-right d-flex justify-content-end align-items-center"
+          >
             <button class="btn-style">Login</button>
             <button class="btn-style">Book a Demo</button>
           </div>
         </div>
         <div class="header-banner">
           <div class="row d-flex justify-content-between">
-            <div class="col-6 header__banner--content">
-              <h1 class="header__banner--title">
+            <div class="col-12 col-lg-6 content">
+              <h1 class="title">
                 Online catalog management
                 <img src="assets/images/Rectangle 22.png" alt="rectangle-22" />
                 tool
               </h1>
-              <p class="header__banner--text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                natus inventore laboriosam, doloribus iste quis?
+              <p class="text">
+                Skyrocket your online store conversion rate the customer
+                experience with visual merchandising.
               </p>
               <div class="button-wrap">
-                <button class="button-banner-style book-demo-btn">
-                  Book a Demo
-                </button>
-                <button class="button-banner-style ask-question-btn">
+                <button class="button-style book-demo">Book a Demo</button>
+                <button class="button-style ask-question">
                   Ask a Question
                 </button>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <img src="assets/images/Dashboard.png" alt="dashboard" />
             </div>
           </div>
@@ -67,7 +71,162 @@
     <!-- Header end -->
 
     <!-- Content start -->
-    <main></main>
+    <main>
+      <div class="container">
+        <!-- Merchandising to increase sales. -->
+        <section id="sales">
+          <h2 class="title">Merchandising to increase sales.</h2>
+          <div class="row gx-5 content">
+            <div class="col-12 col-sm-12 col-lg-4">
+              <img src="assets/images/Icon_1.png" alt="icon-1" />
+              <h4>Conversion rate skyrockets.</h4>
+              <p>
+                Convert more online sales with our visual merchandising
+                interface.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-4">
+              <img src="assets/images/Icon_2.png" alt="icon-2" />
+              <h4>Increase average order value</h4>
+              <p>
+                Increase average order value of your online store by 17% with
+                this little trick.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-4">
+              <img src="assets/images/Icon_3.png" alt="icon-3" />
+              <h4>Spend less time for management</h4>
+              <p>
+                Let your employees spend less time managing the online selling
+                it.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- How Smaller works -->
+        <section id="how">
+          <h2 class="title">How Smaller works</h2>
+          <p class="sub-title">
+            Smaller is a cloud-based tool for merchandisers and eCommerce
+            professionals.
+          </p>
+          <div class="content">
+            <div class="row flex-row-reverse">
+              <div class="col-12 col-sm-12 col-lg-6 d-flex justify-content-end">
+                <div class="content-about">
+                  <h3 class="content-title">
+                    Set basic sorting rules for any categories
+                  </h3>
+                  <p class="content-text">
+                    Bulk sort products on any category page you need, combine
+                    different sort rules:
+                  </p>
+                  <ul class="content-list">
+                    <li>Newest</li>
+                    <li>Bestseller</li>
+                    <li>Most reviewable</li>
+                    <li>Price</li>
+                    <li>Custom Attribute</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-lg-6">
+                <img src="assets/images/Card_1.png" alt="card-1" />
+              </div>
+            </div>
+            <div class="row mt-140">
+              <div class="col-12 col-sm-12 col-lg-6">
+                <div class="content-about">
+                  <h3 class="content-title">
+                    Drag and Drop catalog management
+                  </h3>
+                  <p class="content-text">
+                    Use the Drag and Drop function to sort your products in the
+                    most intuitive, quickest way.
+                  </p>
+                  <p class="content-sub-text">
+                    Set scores for products by adding number, SKUs with higher
+                    scores will be displayed on top of the category pages.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-lg-6 text-end">
+                <img src="assets/images/Card_2.png" alt="card-2" />
+              </div>
+            </div>
+            <div class="row mt-140 flex-row-reverse">
+              <div class="col-12 col-sm-12 col-lg-6 d-flex justify-content-end">
+                <div class="content-about">
+                  <h3 class="content-title">
+                    Limit and add product groups per category pages
+                  </h3>
+                  <p class="content-text">
+                    Achieve a certain variety on your catalog pages:
+                  </p>
+                  <ul class="content-list">
+                    <li>
+                      Ensure the page does not contain identical products: same
+                      color, style or type.
+                    </li>
+                    <li>
+                      Hide and add the desired products or product groups on the
+                      category page.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-lg-6">
+                <img src="assets/images/Card_3.png" alt="card-3" />
+              </div>
+            </div>
+            <div class="row mt-140">
+              <div class="col-12 col-sm-12 col-lg-6">
+                <div class="content-about">
+                  <h3 class="content-title">Control poor-selling products</h3>
+                  <p class="content-text">
+                    Sortler provides flexible features for the management of
+                    your low-selling items.
+                  </p>
+                  <ul class="content-list">
+                    <li>Tracking low-selling items</li>
+                    <li>Raising the item position to the top.</li>
+                    <li>Applying discounts</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-lg-6 text-end">
+                <img src="assets/images/Card_4.png" alt="card-4" />
+              </div>
+            </div>
+            <div class="row mt-140 flex-row-reverse">
+              <div class="col-12 col-sm-12 col-lg-6 d-flex justify-content-end">
+                <div class="content-about">
+                  <h3 class="content-title">
+                    Create rules of low-stock and out-of-stock products
+                  </h3>
+                  <p class="content-text">
+                    Place low-stock items at the top of your product list. Move
+                    out-of-stock products down the catalog.
+                  </p>
+                  <p class="content-sub-text">
+                    Place low-stock items at the top of your product list. Move
+                    out-of-stock products down the catalog.
+                  </p>
+                  <p class="content-sub-text">
+                    Create rules for applying discounts in your catalog.
+                    Simplify loyalty program management, thereby increasing
+                    sales.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-lg-6">
+                <img src="assets/images/Card_5.png" alt="card-5" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
     <!-- Content end -->
 
     <!-- Footer start -->
