@@ -14,10 +14,6 @@ h6 {
   margin: 0;
 }
 
-.mt-140 {
-  margin-top: 140px;
-}
-
 html {
   font-size: 16px;
   font-weight: 400;
@@ -25,6 +21,10 @@ html {
 }
 
 body {
+  background-color: #f2ede6;
+}
+
+main {
   background-color: #005461;
 }
 
@@ -46,7 +46,6 @@ img {
 
 /* Header */
 header {
-  background-color: #f2ede6;
   padding: 30px 0 90px;
 }
 header .header-nav .header-left .header-icon {
@@ -112,9 +111,12 @@ header .header-banner .content .button-wrap .ask-question {
 /* Content */
 main {
   color: #fff;
+  padding: 140px 0;
 }
-main section {
-  margin-top: 140px;
+main .content-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 140px;
 }
 main .title {
   text-align: center;
@@ -150,6 +152,9 @@ main #how .sub-title {
 }
 main #how .content {
   margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 140px;
 }
 main #how .content .content-about {
   width: 470px;
@@ -176,7 +181,6 @@ main #how .content .content-about .content-list li {
 /* Footer */
 footer {
   padding: 100px 86px;
-  background-color: #f2ede6;
 }
 footer #platform h2 {
   margin-bottom: 20px;
@@ -255,7 +259,6 @@ footer #footer-nav #social-media i {
 
 /* Product */
 #find-your-products {
-  background-color: #f2ede6;
   padding-bottom: 50px;
 }
 #find-your-products #title {
@@ -365,9 +368,6 @@ footer #footer-nav #social-media i {
 }
 
 /* Simple pricing */
-#simple-pricing {
-  background-color: #f2ede6;
-}
 #simple-pricing #header h2 {
   margin-bottom: 8px;
   font-size: 50px;
