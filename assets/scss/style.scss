@@ -3,6 +3,21 @@ $secondaryColor: #f2ede6;
 $textPrimaryColor: #fff;
 $textBlack: #2d2d2d;
 
+@mixin titleSection($color: $textBlack) {
+  color: $color;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+}
+
+@mixin subTitleSection($color: #676562) {
+  color: $color;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -121,7 +136,7 @@ header {
         .book-demo {
           color: $textBlack;
           background-color: #f7d047;
-          border: #f7d047;
+          border: none;
         }
 
         .ask-question {
@@ -144,15 +159,11 @@ main {
   }
 
   .title {
-    text-align: center;
-    font-size: 50px;
-    line-height: 54px;
+    @include titleSection($textPrimaryColor);
   }
 
   .sub-title {
-    text-align: center;
-    font-size: 20px;
-    line-height: 24px;
+    @include subTitleSection(rgba(255, 255, 255, 0.8));
   }
 
   #sales {
@@ -166,6 +177,10 @@ main {
       }
 
       h4 {
+        display: -webkit-inline-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
         font-size: 28px;
         line-height: 34px;
         margin: 44px 0 18px;
@@ -205,6 +220,7 @@ main {
           line-height: 26px;
           padding-bottom: 30px;
           margin-bottom: 20px;
+          color: rgba(255, 255, 255, 0.8);
           border-bottom: 1px solid #fff;
         }
 
@@ -212,9 +228,14 @@ main {
           padding-left: 20px;
 
           li {
-            list-style-type: disc;
             margin-bottom: 16px;
+            color: rgba(255, 255, 255, 0.8);
+            list-style-type: disc;
           }
+        }
+
+        .content-sub-text {
+          color: rgba(255, 255, 255, 0.8);
         }
       }
     }
@@ -462,16 +483,11 @@ footer {
   #header {
     h2 {
       margin-bottom: 8px;
-      font-size: 50px;
-      font-weight: 600;
-      line-height: 54px;
-      color: $textBlack;
+      @include titleSection();
     }
 
     p {
-      color: #676562;
-      font-size: 20px;
-      line-height: 34px;
+      @include subTitleSection();
     }
   }
 
