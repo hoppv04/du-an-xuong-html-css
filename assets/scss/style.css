@@ -108,7 +108,7 @@ header .header-banner .content .button-wrap .ask-question {
   border: 1px solid #676562;
 }
 
-/* Content */
+/* Content Home */
 main {
   color: #fff;
   padding: 140px 0;
@@ -269,7 +269,7 @@ footer #footer-nav #social-media i {
   font-size: 24px;
 }
 
-/* Product */
+/* Products */
 #find-your-products {
   padding-bottom: 50px;
 }
@@ -486,4 +486,50 @@ footer #footer-nav #social-media i {
 }
 #simple-pricing #content #price-list > :nth-child(2) .price-about-list div p {
   color: #f2ede6;
+}
+
+/* Contact */
+#contact {
+  max-width: 890px;
+  margin: 0 auto 150px;
+}
+#contact #title h2 {
+  margin-bottom: 20px;
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+}
+#contact #title p {
+  margin-bottom: 50px;
+  color: #676562;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+#contact form div {
+  display: flex;
+  row-gap: 24px;
+}
+#contact form #form-item {
+  margin-bottom: 40px;
+}
+#contact form #form-item input,
+#contact form #form-item textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 22px 32px;
+}
+#contact form #form-item textarea {
+  resize: none;
+  height: 150px;
+}
+#contact form button {
+  padding: 16px 32px;
+  border: none;
+  background-color: #018294;
+  font-size: 20px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

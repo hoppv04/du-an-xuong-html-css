@@ -147,7 +147,7 @@ header {
     }
   }
 }
-/* Content */
+/* Content Home */
 main {
   color: $textPrimaryColor;
   padding: 140px 0;
@@ -336,7 +336,7 @@ footer {
   }
 }
 
-/* Product */
+/* Products */
 #find-your-products {
   padding-bottom: 50px;
 
@@ -606,6 +606,53 @@ footer {
           }
         }
       }
+    }
+  }
+}
+
+/* Contact */
+#contact {
+  max-width: 890px;
+  margin: 0 auto 150px;
+  #title {
+    h2 {
+      margin-bottom: 20px;
+      @include titleSection();
+    }
+
+    p {
+      margin-bottom: 50px;
+      @include subTitleSection();
+    }
+  }
+
+  form {
+    div {
+      display: flex;
+      row-gap: 24px;
+    }
+    #form-item {
+      margin-bottom: 40px;
+      input,
+      textarea {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 22px 32px;
+      }
+
+      textarea {
+        resize: none;
+        height: 150px;
+      }
+    }
+
+    button {
+      padding: 16px 32px;
+      border: none;
+      background-color: #018294;
+      font-size: 20px;
+      color: $textPrimaryColor;
     }
   }
 }
