@@ -349,10 +349,16 @@ footer #footer-nav #social-media i {
 }
 #find-your-products #product-list .product-item .product-content .product-name {
   margin-bottom: 18px;
+}
+#find-your-products #product-list .product-item .product-content .product-name a {
   color: #2d2d2d;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+#find-your-products #product-list .product-item .product-content .product-name a:hover {
+  opacity: 0.6;
 }
 #find-your-products #product-list .product-item .product-content .product-price .rating .star-icon {
   margin-right: 6px;
@@ -527,6 +533,65 @@ footer #footer-nav #social-media i {
   height: 150px;
 }
 #contact form button {
+  padding: 16px 32px;
+  border: none;
+  background-color: #018294;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Blog */
+#blog {
+  max-width: 890px;
+  margin: 0 auto 150px;
+}
+#blog #header h2 {
+  margin-bottom: 20px;
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+}
+#blog #header p {
+  margin-bottom: 70px;
+  color: #676562;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+#blog #content #blog-list {
+  row-gap: 60px;
+  margin-bottom: 56px;
+}
+#blog #content #blog-list .blog-item .blog-img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#blog #content #blog-list .blog-item .blog-content h4 {
+  margin-bottom: 20px;
+}
+#blog #content #blog-list .blog-item .blog-content h4 a {
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #2d2d2d;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  transition: all 0.3s ease-in-out;
+}
+#blog #content #blog-list .blog-item .blog-content h4 a:hover {
+  opacity: 0.6;
+}
+#blog #content #blog-list .blog-item .blog-content p {
+  color: #676562;
+  font-size: 16px;
+  line-height: 26px;
+}
+#blog #content button {
   padding: 16px 32px;
   border: none;
   background-color: #018294;
