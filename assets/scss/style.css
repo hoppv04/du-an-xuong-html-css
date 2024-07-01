@@ -597,4 +597,182 @@ footer #footer-nav #social-media i {
   background-color: #018294;
   font-size: 20px;
   color: #fff;
+}
+
+/* About us */
+#about section {
+  margin-bottom: 150px;
+}
+#about .title h2 {
+  margin-bottom: 70px;
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+}
+#about #about-us #content {
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+#about #about-us #content #content-left {
+  max-width: 500px;
+}
+#about #about-us #content #content-left h2 {
+  margin-bottom: 20px;
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  text-align: left;
+}
+#about #about-us #content #content-left p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #676562;
+}
+#about #about-us #content #content-left button {
+  padding: 16px 32px;
+  border: none;
+  background-color: #018294;
+  font-size: 20px;
+  color: #fff;
+}
+#about #about-us #content #content-right {
+  position: relative;
+}
+#about #about-us #content #content-right img:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 50%;
+  border-top: 10px solid #fff;
+  border-right: 10px solid #fff;
+}
+#about #our-team-members #member-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 54px;
+       column-gap: 54px;
+}
+#about #our-team-members #member-list .member-item {
+  padding: 14px 14px 34px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+#about #our-team-members #member-list .member-item .img {
+  margin-bottom: 14px;
+}
+#about #our-team-members #member-list .member-item .name {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #2d2d2d;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+}
+#about #our-team-members #member-list .member-item .position {
+  margin-bottom: 34px;
+  color: #676562;
+  font-size: 16px;
+  font-weight: 18px;
+}
+#about #our-team-members #member-list .member-item .social-media-list {
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+#about #our-team-members #member-list .member-item .social-media-list > div {
+  border: 1px solid #018294;
+  border-radius: 50%;
+  padding: 8px;
+}
+#about #our-team-members #member-list .member-item .social-media-list > div div {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about #our-team-members #member-list .member-item .social-media-list > div div a {
+  color: #018294;
+  border-radius: 50%;
+}
+#about #what-customer-say #header {
+  margin-bottom: 88px;
+}
+#about #what-customer-say #header p {
+  color: #676562;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+#about #what-customer-say #header h2 {
+  margin: 20px 0;
+  color: #2d2d2d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+}
+#about #what-customer-say #customer-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-bottom: 70px;
+}
+#about #what-customer-say #customer-list .customer-item {
+  padding: 40px 44px 72px;
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+}
+#about #what-customer-say #customer-list .customer-item .avatar {
+  margin: 0 auto 34px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#about #what-customer-say #customer-list .customer-item .avatar img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#about #what-customer-say #customer-list .customer-item .rate {
+  margin-bottom: 16px;
+}
+#about #what-customer-say #customer-list .customer-item .rate i {
+  font-size: 17px;
+  color: #f7d047;
+}
+#about #what-customer-say #customer-list .customer-item h4 {
+  margin-bottom: 24px;
+  color: #2d2d2d;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+}
+#about #what-customer-say #customer-list .customer-item p {
+  color: #676562;
+  font-size: 16px;
+  line-height: 26px;
+}
+#about #what-customer-say #pagination {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  justify-content: center;
+}
+#about #what-customer-say #pagination .dot {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #018294;
+  border-radius: 50%;
+}
+#about #what-customer-say #pagination .dot.active {
+  background-color: #018294;
 }/*# sourceMappingURL=style.css.map */
